@@ -585,7 +585,7 @@ subpackages:
     pipeline:
       - runs: |
           set -x
-          
+
           mkdir -p "${{targets.subpkgdir}}"/usr/lib/systemd/system/
           mkdir -p "${{targets.subpkgdir}}"/usr/lib/systemd/system-preset/
 
